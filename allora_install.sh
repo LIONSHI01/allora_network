@@ -21,7 +21,8 @@ function main_menu(){
 
       case $OPTION in
           1) install_node ;;
-          2) inspect_logs
+          2) inspect_logs ;;
+          *) echo "Invalid Choice." ;;
       esac
       echo "Press any key back to menu..."
       read -n 1
