@@ -18,6 +18,7 @@ function main_menu(){
       clear
       echo "1. Install Node"
       echo "2. View Logs"
+      read -p "Please input (1-2): " OPTION
 
       case $OPTION in
           1) install_node ;;
